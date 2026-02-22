@@ -8,13 +8,13 @@ const protocols = [
     {
         step: "01",
         title: "Apply",
-        desc: "Complete our 2-minute application. We review your trades business to ensure a perfect fit for a cinematic build.",
+        desc: "Complete our 2-minute application. We review your trades business to ensure a perfect fit for a high quality build.",
         animation: "motif"
     },
     {
         step: "02",
         title: "Build",
-        desc: "We design and develop a stunning digital instrument tailored to your brand, completely free of charge.",
+        desc: "We design and develop a stunning website tailored to your brand, completely free of charge.",
         animation: "laser"
     },
     {

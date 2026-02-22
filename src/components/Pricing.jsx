@@ -10,7 +10,7 @@ export default function Pricing() {
                 </div>
 
                 <p className="font-outfit text-xl text-dark/70 leading-relaxed font-light max-w-2xl">
-                    We build your stunning digital instrument entirely for free. You simply cover the premium hosting and management foundation. No hidden costs.
+                    We build your high conversion website entirely for free. You simply cover the premium hosting and management foundation. No hidden costs.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full mt-8">
@@ -34,6 +34,9 @@ export default function Pricing() {
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-accent mt-0.5">•</span> Domain maintenance
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-accent mt-0.5">•</span> Annual update requests
                                 </li>
                             </ul>
                         </div>
@@ -66,6 +69,9 @@ export default function Pricing() {
                                 <li className="flex items-start gap-2">
                                     <span className="text-accent mt-0.5">•</span> AI search readiness
                                 </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-accent mt-0.5">•</span> Monthly update requests
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -96,6 +102,9 @@ export default function Pricing() {
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-accent mt-0.5">•</span> Full brand package
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-accent mt-0.5">•</span> Unlimited updates
                                 </li>
                             </ul>
                         </div>
