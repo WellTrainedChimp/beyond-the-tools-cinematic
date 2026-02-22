@@ -23,7 +23,7 @@ export default function Pricing() {
                                 <span className="font-outfit text-dark/50 mb-1">/ mo</span>
                             </div>
                             <p className="font-outfit text-sm text-dark/80 mb-6 min-h-[3rem]">
-                                5-page cinematic website. Ideal for sole traders establishing a professional presence.
+                                5-page high conversion website. Ideal for sole traders establishing a professional presence.
                             </p>
                             <ul className="space-y-3 font-outfit text-sm text-dark/70">
                                 <li className="flex items-start gap-2">
