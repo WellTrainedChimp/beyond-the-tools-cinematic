@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-dark font-sans antialiased;
+  }
+}
+
+/* Global Noise Overlay */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.05;
+}
+
+/* Base interactive transitions */
+.magnetic-btn {
+  @apply relative overflow-hidden transition-transform duration-300 ease-magnetic hover:scale-[1.03];
+}
+
+.magnetic-btn span.hover-bg {
+  @apply absolute inset-0 bg-dark transform -translate-x-full transition-transform duration-500 ease-out;
+}
+.magnetic-btn:hover span.hover-bg {
+  @apply translate-x-0;
+}
+
+.interactive-link {
+  @apply transition-transform duration-300 hover:-translate-y-[1px];
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/20 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/40;
+}
